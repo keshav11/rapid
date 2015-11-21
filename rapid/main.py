@@ -1,12 +1,25 @@
+import argparse
+
+parser = argparse.ArgumentParser(description='Generates boilerplate code.')
+parser.add_argument('language', help='boilerplate code to be generated')
+
+args = parser.parse_args()
+
 supports = ['html'];
 data_loc = 'boilerplate'
 
-def html_boilerplate(name):
-    with open(data_loc +'/'+ name +'/' + 'code', 'r') as file:
-        print file.read()
+def _boilerplate(name):
+    if name in supports:
+        with open(data_loc +'/'+ name +'/' + 'code', 'r') as file:
+            print file.read()
+    else:
+        print 'This language is not supported. Please Try from this list.'
+        for l in supports:
+            print l
+
 
 def main():
-    html_boilerplate('html')
+    _boilerplate(args.language)
 
 if __name__ == "__main__":
     main()
