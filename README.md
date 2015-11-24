@@ -10,3 +10,10 @@ python main.html language > file_name
 <pre>
 python main.html html > index.html
 </pre>
+
+##Currently Supported
+* C
+* C#
+* Java
+* HTML
+
