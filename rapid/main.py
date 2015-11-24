@@ -5,7 +5,7 @@ parser.add_argument('language', help='boilerplate code to be generated')
 
 args = parser.parse_args()
 
-supports = ['html', 'java'];
+supports = ['html', 'java', 'csharp'];
 data_loc = 'boilerplate'
 
 def _boilerplate(name):
