@@ -1,31 +1,27 @@
-# rapid
+#rapid
 rapid bloilerplate code generation
+##Installation
+<pre>python setup.py install</pre>
 ## Usage
+<pre>
+rapid language > file_name
+</pre>
+###example
 
+<pre>
+rapid html > index.html
+</pre>
+###Without installation
 <pre>
 python main.html language > file_name
 </pre>
 ###example
-
 <pre>
 python main.html html > index.html
 </pre>
 
 ##Currently Supported
 * C
-<pre>
-python main.html c > main.c
-</pre>
 * C#
-<pre>
-python main.html csharp > Hello.cs
-</pre>
 * Java
-<pre>
-python main.html java > Hello.java
-</pre>
 * HTML
-<pre>
-python main.html html > index.html
-</pre>
-
