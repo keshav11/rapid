@@ -11,7 +11,7 @@ setup(
     author_email = "keshav@keshav.xyz",
     description = ("rapid generates boilerplate code through command line"),
     license = "MIT",
-    keywords = ["boilerplate", "cli", "github" "command line"],
+    keywords = ["boilerplate", "cli", "generate" "command line"],
     url = "https://github.com/keshav11/rapid",
     packages=['rapid'],
     long_description=read('README.md'),
