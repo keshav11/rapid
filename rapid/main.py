@@ -6,7 +6,7 @@ parser.add_argument('language', help='boilerplate code to be generated')
 
 args = parser.parse_args()
 
-supports = ['html', 'java', 'csharp', 'c'];
+supports = ['html', 'java', 'csharp', 'c', 'cpp'];
 
 _ROOT_DIR = os.path.abspath(os.path.dirname(__file__))
 _BOILERPLATE_DIR = os.path.join(_ROOT_DIR, 'boilerplate')
