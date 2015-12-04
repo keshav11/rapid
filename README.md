@@ -1,5 +1,8 @@
 #rapid
 rapid bloilerplate code generation
+
+![rapid](https://github.com/keshav11/rapid/blob/master/logo.png)
+
 ##Installation
 <pre>pip install rapid</pre>
 <pre>python setup.py install</pre>
