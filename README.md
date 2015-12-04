@@ -9,16 +9,16 @@ rapid generates bloilerplate code for various languages using command line
 2. Using Source 
 <pre>$ python setup.py install</pre>
 
-## Usage
+##Usage
 <pre>
 $ rapid language > file_name
 </pre>
-###example
+####Example
 
 <pre>
 $ rapid html > index.html
 </pre>
-###Without installation
+####Without installation
 <pre>
 $ python main.html language > file_name
 </pre>
