@@ -15,6 +15,7 @@ setup(
     url = "https://github.com/keshav11/rapid",
     packages=['rapid'],
     long_description=read('README.md'),
+    download_url='https://github.com/keshav11/rapid/tarball/0.0.1',
     package_data={
         'rapid': [
         'boilerplate/c/*.bp',

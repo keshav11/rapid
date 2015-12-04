@@ -2,7 +2,7 @@ import argparse
 import os
 
 parser = argparse.ArgumentParser(description='Generates boilerplate code.')
-parser.add_argument('language', help='boilerplate code to be generated')
+parser.add_argument('language', help='boilerplate code to be generated')    
 
 args = parser.parse_args()
 
