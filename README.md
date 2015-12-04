@@ -1,7 +1,9 @@
 #rapid
 rapid bloilerplate code generation
 ##Installation
+<pre>pip install rapid</pre>
 <pre>python setup.py install</pre>
+
 ## Usage
 <pre>
 rapid language > file_name
