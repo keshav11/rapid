@@ -22,7 +22,7 @@ $ rapid html > index.html
 <pre>
 $ python main.html language > file_name
 </pre>
-###example
+#####Example
 <pre>
 $ python main.html html > index.html
 </pre>
