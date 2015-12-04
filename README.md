@@ -4,7 +4,9 @@ rapid bloilerplate code generation
 ![rapid](https://github.com/keshav11/rapid/blob/master/logo.png)
 
 ##Installation
+1. Using PyPI
 <pre>pip install rapid</pre>
+2. Using Source 
 <pre>python setup.py install</pre>
 
 ## Usage
@@ -27,6 +29,9 @@ python main.html html > index.html
 
 ##Currently Supported
 * C
+* C++
 * C#
 * Java
 * HTML
+* Python
+* empty file
