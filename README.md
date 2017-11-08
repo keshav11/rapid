@@ -1,33 +1,33 @@
-#rapid
+# rapid
 rapid generates bloilerplate code for various languages using command line
 
-![rapid](https://github.com/keshav11/rapid/blob/master/logo.png)
+![rapid](https://github.com/keshav11/rapid/blob/master/logo.png = 300px)
 
-##Installation
+## Installation
 1. Using PyPI
 <pre>$ pip install rapid</pre>
 2. Using Source 
 <pre>$ python setup.py install</pre>
 
-##Usage
+## Usage
 <pre>
 $ rapid language > file_name
 </pre>
-####Example
+#### Example
 
 <pre>
 $ rapid html > index.html
 </pre>
-####Without installation
+#### Without installation
 <pre>
 $ python main.html language > file_name
 </pre>
-#####Example
+##### Example
 <pre>
 $ python main.html html > index.html
 </pre>
 
-##Currently Supported
+## Currently Supported
 * C
 * C++
 * C#
@@ -35,3 +35,4 @@ $ python main.html html > index.html
 * HTML
 * Python
 * empty file
+p
