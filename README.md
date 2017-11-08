@@ -1,7 +1,7 @@
 # rapid
 rapid generates bloilerplate code for various languages using command line
 
-![rapid](https://github.com/keshav11/rapid/blob/master/logo.png = 300px)
+<img src="https://github.com/keshav11/rapid/blob/master/logo.png" width="500">
 
 ## Installation
 1. Using PyPI
