@@ -6,7 +6,7 @@ rapid generates bloilerplate code for various languages using command line
 ## Installation
 1. Using PyPI
 <pre>$ pip install rapid</pre>
-2. Using Source 
+2. Using source 
 <pre>$ python setup.py install</pre>
 
 ## Usage
@@ -35,4 +35,6 @@ $ python main.html html > index.html
 * HTML
 * Python
 * empty file
-p
+
+## TODO:
+* add support for adding boilerplate code by user
