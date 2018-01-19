@@ -20,11 +20,11 @@ $ rapid html > index.html
 </pre>
 #### Without installation
 <pre>
-$ python main.html language > file_name
+$ python main.py language > file_name
 </pre>
 ##### Example
 <pre>
-$ python main.html html > index.html
+$ python main.py html > index.html
 </pre>
 
 ## Currently Supported
